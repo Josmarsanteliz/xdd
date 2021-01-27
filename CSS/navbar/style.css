@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+}
+
+header {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10px;
+    background-color: green;
+
+
+}
+
+.links {
+  list-style: none;
+
+}
+
+.links li {
+  display: inline-block;
+  padding: 0px 20px;
+  text-decoration: none;
+}
+ a {
+   text-decoration: none;
+   color: #fff;
+ }
+.links li a {
+  transition: all 0.3s ease 0s
+
+}
+.links li a:hover {
+  color: #000;
+}

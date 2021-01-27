@@ -1,0 +1,21 @@
+/*navbar2*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links {
+  list-style: none;
+
+}
+
+.links li {
+  display: inline-block;
+}

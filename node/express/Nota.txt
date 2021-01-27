@@ -1,0 +1,46 @@
+Framework expressjs 
+
+buscar en google e ir  a getting started, Api refences, Guide (checkear)
+
+Instalarlo
+primero crear un pack json, describira mi proyecto
+
+->npm init -y
+express
+->npm install express
+
+1-importar
+const express = require('express');
+2-usar
+const app = express();
+3-servidor
+app.listen(3000, () => {
+console.log("Server listening on server 3000");
+});
+4-get
+app.get('/', (req, res) => {
+res.send('Hello world');
+});
+
+ROUTINE - ENRRUTAMIENTO EXPRESS TITLO SEGUNDA APRTE
+
+/about etc /more
+
+Vamos a instalar un nuevo modulo, NODEMON (BUSCAR  DOCUMENTACION)
+
+npm i nodemon -D
+
+npx nodemon (nombre de mi archivo) NPX ES PORQUE NO ESTA INSTALADO EN TODO MI SISTEMA
+
+2-TIPOS DE RUTAS, metodos https methods (Buscar informacion)
+
+post,put,delete,get
+
+PARA PODER PROBARLOS, TESTEAR POSTMAN
+
+METODOS -> SEND,json,
+
+console.log(req.params)
+req.body
+
+54:19
